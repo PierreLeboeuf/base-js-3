@@ -1,3 +1,4 @@
+
 // Exrecice 1
 
 // let nom = "Jean";
@@ -8,15 +9,15 @@
 
 // Exercice 2
 
-let a = 10;
-let b = 20;
+// let a = 10;
+// let b = 20;
 
-let somme=a+b
-console.log(somme);
+// let somme=a+b
+// console.log(somme);
 
-let multi=a*b
+// let multi=a*b
 
-console.log(multi);
+// console.log(multi);
 
 // Exercice 3
 
@@ -76,43 +77,81 @@ console.log(multi);
 // }
 
 // Exercice 8
-// for (let i = 1; i <= 100; i++) {
-//   console.log(`${i}`);
+// let somme = 0;
+
+// for (let compteur=0; compteur <= 100; compteur++) { 
+//   somme += compteur; 
+// //   += addition + affectation
+// console.log(somme);
 // }
+
+
 
 // Exercice 9
-const nombreAleatoire = Math.floor(Math.random() * 10) + 1;
+// let nombre;
+// let nombreAleatoire = Math.floor(Math.random() * 10) + 1;
+// console.log(nombreAleatoire);
 
-// do{
-// let devine= prompt("Devine le nombre entre 1 et 10")
-  // Vérifier si l'entrée de l'utilisateur est un nombre valide
-    // if (isNaN(parseInt(devine))) {
-    //   alert("Veuillez entrer un nombre valide.");
-    //   continue; // Passer à la prochaine itération de la boucle
-    // }
-
-//     if (parseInt(devine) !== nombreAleatoire) {
-//       alert("Essaye encore !");
+// while (nombre !== nombreAleatoire) {
+//     nombre = parseInt(prompt(`Devine un nombre entre 1 et 10`))
+//     if (nombre === nombreAleatoire) {
+//         console.log(`Bravo`);
+        
+//     } else {
+//         console.log(`Essaye encore`);
 //     }
-//   } while (parseInt(devine) !== nombreAleatoire);
-
-//   alert("Bravo, c’est correct !");
-//  let devine= prompt("Devine le nombre entre 1 et 10") 
-// while (parseInt(devine) !== nombreAleatoire){
-    // let devine= prompt("Devine le nombre entre 1 et 10")
-    // if (parseInt(devine) !== nombreAleatoire) {
-    //   alert("Essaye encore !");
-    // }
+   
 // }
 
+// console.log(nombre);
 
 
 
 // Exercice 10
-let afficherCompteur = 1;
+// let afficherCompteur = 1;
 
+// for(let afficherCompteur=0; afficherCompteur < 51; afficherCompteur+=2) {
+//     console.log(afficherCompteur);
+// }
 
-for(let afficherCompteur=0; afficherCompteur < 51; afficherCompteur+=2) {
-    console.log(afficherCompteur);
-    
+// Exercice 11
+
+let i = 10;
+
+for (let i = 10; i >= 0 ; i--){
+    console.log(i);
+    if(i===0){
+    console.log(`c'est terminé`);
+    }
 }
+
+// Exercice 12
+
+// let firstNumber = parseInt(prompt("Donner un premier nombre"))
+// console.log(firstNumber);
+// let secondNumber = parseInt(prompt("Donner un second nombre"))
+// console.log(secondNumber);
+// let operation = prompt("Donner une opération")
+// console.log(operation);
+
+// switch (operation) {
+//   case "+":
+//     console.log(`${firstNumber+secondNumber}`);
+//     break;
+//   case "-":
+//     console.log(`${firstNumber-secondNumber}`);
+//     break;
+//   case "*":
+//     console.log(`${firstNumber*secondNumber}`);
+//     break;
+//   case "/":
+//     console.log(`${firstNumber/secondNumber}`);
+//     break
+// }
+
+// Exercice 13
+
+const table = [12, 45, 3, 22, 34];
+// let maxNumber = Math.max(...table);
+
+console.log(Math.max(...table));
